@@ -14,7 +14,7 @@ import {
 const factions = ['Foundation', 'GOC', 'Counter', 'Anomalies', 'SerpentHand', 'TRT'];
 
 const webhookUrl =
-  'https://discord.com/api/webhooks/1371495643625029793/8v-sn2NuqwCPfULAsUJjNNeAWM_n66bVcyeOWzz8WTQeDq24PakGyiCmvhu0uOb7jaG4';
+  'https://discord.com/api/webhooks/1373342420548190289/iQ5TQSRpCb6my6X9p6nO3B3PlWooJc7Dm373FNf-lw3bmCSNOLvSnGlSb3aAKbAwsEA7';
 
 export default function App() {
   const [writer, setWriter] = useState('');
