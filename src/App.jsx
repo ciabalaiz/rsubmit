@@ -133,7 +133,7 @@ export default function App() {
 
       <NativeSelect
         label="SCPs (Select multiple one by one)"
-        data={['035', '079', '096', '173', '106', '966', '280', '457', '049', '076']}
+        data={['035', '079', '096', '173', '106', '966', '280', '457', '049', '076', '035Natural']}
         onChange={(e) => {
           const val = e.currentTarget.value;
           if (val && !scps.includes(val)) setScps([...scps, val]);
